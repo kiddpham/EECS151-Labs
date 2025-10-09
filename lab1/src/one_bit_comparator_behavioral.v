@@ -5,7 +5,7 @@ module one_bit_comparator_behavioral (
     output less,
     output equal
 );
-    ____ greater = ________; // TODO
-    ____ less = ________; // TODO
-    ____ equal = ________; // TODO
+    assign greater = (a & ~b); // TODO
+    assign less = (~a & b ); // TODO
+    assign equal = (a ~^ b); // TODO
 endmodule

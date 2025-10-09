@@ -1,0 +1,26 @@
+{
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "shift_register_structural_tb": [
+        "shift_register_structural_tb",
+        "Pm1Ph",
+        "module",
+        2
+    ],
+    "d_flip_flop": [
+        "d_flip_flop",
+        "zyzfg",
+        "module",
+        3
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        4
+    ]
+}

@@ -1,0 +1,12 @@
+sim:
+  inputs:
+    input_files:
+      - "src/alu.v"
+      - "src/alu_testbench.v"
+    timescale: "1ns/1ps"
+    options:
+      - "+incdir+../../src"
+      - "+v2k"
+    top_module: "alu"
+    tb_name: "alu_testbench"
+

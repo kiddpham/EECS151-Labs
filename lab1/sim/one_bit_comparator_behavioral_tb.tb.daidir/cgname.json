@@ -1,0 +1,26 @@
+{
+    "d_flip_flop": [
+        "d_flip_flop",
+        "zyzfg",
+        "module",
+        3
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "one_bit_comparator_behavioral_tb": [
+        "one_bit_comparator_behavioral_tb",
+        "Razzt",
+        "module",
+        5
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        4
+    ]
+}

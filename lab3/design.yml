@@ -1,9 +1,7 @@
 # Specify Global Variables
-gcd.clockPeriod: &CLK_PERIOD "20ns"
-gcd.verilogSrc: &VERILOG_SRC
-  - "src/gcd.v"
-  - "src/gcd_datapath.v"
-  - "src/gcd_control.v"
+divider.clockPeriod: &CLK_PERIOD "2.1ns"
+divider.verilogSrc: &VERILOG_SRC
+  - "src/divider.v"
   - "src/EECS151.v"
 
 # Specify clock signals
@@ -13,12 +11,12 @@ vlsi.inputs.clocks: [
 
 # Synthesis Constraints
 synthesis.inputs:
-  top_module: "gcd"
+  top_module: "divider"
   input_files: *VERILOG_SRC
 
 # Placement Constraints
 vlsi.inputs.placement_constraints:
-  - path: "gcd"
+  - path: "divider"
     type: "toplevel"
     x: 0
     y: 0
@@ -36,5 +34,3 @@ vlsi.inputs.pin.generate_mode: semi_auto
 vlsi.inputs.pin.assignments: [
   {pins: "*", layers: ["met2", "met4"], side: "bottom"}
 ]
-
-

@@ -5,15 +5,18 @@ module simple_counter (
 );
     reg [1:0] counter;
 
-    always @(________ or ________) begin
-        if (____) begin // TODO
-            counter <= 2'b00;
+    always @(posedge clk or posedge reset) begin
+        if (reset) begin
+            count <= 2'b00;
         end else begin
-            case (____) // TODO
-                // TODO
+            case (count)
+                2'b00: count <= 2'b01;
+                2'b01: count <= 2'b10;
+                2'b10: count <= 2'b11;
+                2'b11: count <= 2'b00;
             endcase
         end
     end
 
-    ____ counter_out = ____; // TODO
+    assign counter_out = counter; // TODO
 endmodule

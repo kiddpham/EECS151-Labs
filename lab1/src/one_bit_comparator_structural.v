@@ -7,10 +7,10 @@ module one_bit_comparator_structural (
 );
     wire a_not, b_not;
 
-    not(____); // TODO
-    not(____); // TODO
+    not(a_not, a); // TODO
+    not(b_not, b); // TODO
 
-    and(________); // TODO
-    and(________); // TODO
-    xnor(________); // TODO
+    and(greater, a, b_not); // TODO
+    and(less, a_not, b); // TODO
+    xnor(equal, a, b); // TODO
 endmodule

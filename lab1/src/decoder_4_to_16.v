@@ -4,11 +4,11 @@ module decoder_4_to_16 (
 );
     generate
         genvar i;
-        for (________) begin // TODO
+        for (i = 0; i < 16; i = i + 1) begin // TODO
             line_decoder ld (
-                .select(____), // TODO
-                .addr(____), // TODO
-                .single_wire(____) // TODO
+                .select(i[3:0]), // TODO
+                .addr(addr), // TODO
+                .single_wire(one_hot[i]) // TODO
             );
         end
     endgenerate

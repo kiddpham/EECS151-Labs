@@ -29,7 +29,7 @@ vlsi.inputs.placement_constraints:
       right: 10
       top: 10
       bottom: 10
-  - path: "gcd_coprocessor/GCDdpath0"
+  - path: "gcd_coprocessor/datapath"
     type: "placement"
     x: 200
     y: 200

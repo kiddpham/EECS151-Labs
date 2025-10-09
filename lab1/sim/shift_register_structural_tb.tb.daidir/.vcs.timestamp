@@ -1,0 +1,167 @@
+0 
+36
++cli+4
++itf+/home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/vcsdp.tab
++lint=all,noVCDE,noNS,noSVA-UA
++memcbk
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/libvirsim.so /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/liberrorinf.so /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/libsnpsmalloc.so /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/libvfs.so
+-Mout=shift_register_structural_tb.tb
+-Msaverestoreobj=/home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/include
+-Xcbug=0x1
+-Xnotice=1
+-debug=4
+-full64
+-gen_obj
+-line
+-o shift_register_structural_tb.tb
+-picarchive
+-sverilog
+-timescale=1ns/1ps
+../src/shift_register_structural.v
+/home/cc/eecs151/fa25/class/eecs151-ady/asic-labs-fa25/lab1/src/d_flip_flop.v
+/home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/bin/vcs1
+shift_register_structural_tb.v
+115
+which_declare=declare -f
+XILINX_SOURCED=yes
+XDG_SESSION_ID=2284
+XDG_RUNTIME_DIR=/run/user/94087
+XDG_DATA_DIRS=/home/cc/eecs151/fa25/class/eecs151-ady/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+XA_HOME=/home/ff/eecs151/tools/xa/G-2012.06-SP2
+XA_64=1
+VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+VSCODE_IPC_HOOK_CLI=/run/user/94087/vscode-ipc-7594ca59-dc4a-4c41-af9c-32f7af5c265f.sock
+VSCODE_GIT_IPC_HANDLE=/run/user/94087/vscode-git-7a3e503f24.sock
+VSCODE_GIT_ASKPASS_NODE=/home/cc/eecs151/fa25/class/eecs151-ady/.vscode-server/cli/servers/Stable-f220831ea2d946c0dcb0f3eaa480eb435a2c1260/server/node
+VSCODE_GIT_ASKPASS_MAIN=/home/cc/eecs151/fa25/class/eecs151-ady/.vscode-server/cli/servers/Stable-f220831ea2d946c0dcb0f3eaa480eb435a2c1260/server/extensions/git/dist/askpass-main.js
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VMR_MODE_FLAG=64
+VIRTUAL_ENV_PROMPT=(venv_151) 
+VIRTUAL_ENV=/home/cc/eecs151/fa25/class/eecs151-ady/venv_151
+VCS_PATH=/home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/bin
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+USE_CALIBRE_VCO=aok
+UNAME=/bin/uname
+UCB_VLSI_HOME=/home/ff/eecs151
+UCB_VLSI_HOME2=/home/ff/eecs151
+UCB_STDCELLS=synopsys-32nm/multi_vt
+TOOL_HOME=/home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64
+TERM_PROGRAM_VERSION=1.104.0
+TERM_PROGRAM=vscode
+S_COLORS=auto
+SYNOPSYS_SYSTYPE=linux
+SYNOPSYS_ROOT=/home/ff/cs250/tools/synopsys
+SYNOPSYS_NCX_ROOT=/home/ff/eecs151/tools/ncx/G-2012.06-SP3
+STAR_HOME=/home/ff/eecs151/tools/starrcxt/G-2012.06-SP3
+SSL_CERT_FILE=/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+SSL_CERT_DIR=/etc/pki/tls/certs
+SSH_CONNECTION=10.40.228.26 52941 128.32.42.144 22
+SSH_CLIENT=10.40.228.26 52941 22
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+RUNAS=/share/b/runas/x86_64
+PT_PATH=/home/ff/cs250/tools/synopsys/pt/current/bin
+PT_HOME=/home/ff/cs250/tools/synopsys/pt/current
+PATH_SOURCED=yes
+OVA_UUM=0
+OS=Linux
+OA_UNSUPPORTED_PLAT=linux_rhel50_gcc48x
+NCX_HOME=/home/ff/eecs151/tools/ncx/G-2012.06-SP3
+MW_PATH=/home/ff/cs250/tools/synopsys/mw/current/bin/AMD.64
+MW_HOME=/home/ff/cs250/tools/synopsys/mw/current
+MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH LD_PRELOAD
+MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl
+MODULESHOME=/usr/share/Modules
+MODULEPATH_modshare=/usr/share/Modules/modulefiles:2:/etc/modulefiles:2:/usr/share/modulefiles:2
+MODULEPATH=/etc/scl/modulefiles:/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles
+MGLS_LICENSE_FILE=1717@license-srv.eecs.berkeley.edu
+MFLAGS=
+MENTOR_SOURCED=yes
+MASTERDIR=/home/ff/eecs151
+MASTER=eecs151
+MAKE_TERMOUT=/dev/pts/22
+MAKE_TERMERR=/dev/pts/22
+MAKELEVEL=1
+MAKEFLAGS=
+LOADEDMODULES=
+LM_PROJECT=bwrc_users
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+IPDK_SYN_28NM=/home/ff/eecs151/synopsys-32nm
+INV_PATH=/share/instsww/cadence/INNOVUS/bin
+INV_HOME=/share/instsww/cadence/INNOVUS
+INST_SOURCED=yes
+INSTALLER_PATH=/home/ff/cs250/tools/synopsys/installer/current
+ICC_PATH=/home/ff/eecs151/tools/icc/bin
+ICC_HOME=/home/ff/eecs151/tools/icc
+HSP_HOME=/home/ff/eecs151/tools/hspice/G-2012.06-SP1/hspice
+HSPICE_HOME=/home/ff/eecs151/tools/hspice/G-2012.06-SP1
+HISTCONTROL=ignoredups
+HERCULES_HOME_DIR=/home/ff/eecs151/tools/hercules/B-2008.09-SP5
+GIT_ASKPASS=/home/cc/eecs151/fa25/class/eecs151-ady/.vscode-server/cli/servers/Stable-f220831ea2d946c0dcb0f3eaa480eb435a2c1260/server/extensions/git/dist/askpass.sh
+GEN_PATH=/share/instsww/cadence/GENUS/bin
+GEN_HOME=/share/instsww/cadence/GENUS
+FORMALITY_HOME=/home/ff/cs250/tools/synopsys/fm/current
+FORMALITY_BIN=/home/ff/cs250/tools/synopsys/fm/current/bin
+ENV_SOURCED=yes
+DC_PATH=/share/instsww/synopsys/J-2014.09-SP3/bin
+DC_HOME=/share/instsww/synopsys/J-2014.09-SP3
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/94087/bus
+CVS_RSH=ssh
+CONFIG_SHELL=/usr/bin/bash
+COLORTERM=truecolor
+CHISEL=/home/ff/cs250/install/chisel
+CDS_ROOT=/share/instsww/cadence/IC615.151
+CDS_Netlisting_Mode=Analog
+CDS_LOAD_ENV=CSF
+CDS_LIC_FILE=5280@license-srv.eecs.berkeley.edu
+CDS_INST_DIR=/share/instsww/cadence/IC615.151
+CDSHOME=/share/instsww/cadence/IC615.151
+CALIBRE_PATH=/share/instsww/mgc/calibre2024/aok_cal_2024.3_16.10/bin
+CALIBRE_HOME=/share/instsww/mgc/calibre2024/aok_cal_2024.3_16.10
+BASH_FUNC_which%%=() {  ( alias;_ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@_}
+BASH_FUNC_switchml%%=() {  typeset swfound=1;_ if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then_ typeset swname='main';_ if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then_ typeset swfound=0;_ unset MODULES_USE_COMPAT_VERSION;_ fi;_ else_ typeset swname='compatibility';_ if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then_ typeset swfound=0;_ MODULES_USE_COMPAT_VERSION=1;_ export MODULES_USE_COMPAT_VERSION;_ fi;_ fi;_ if [ $swfound -eq 0 ]; then_ echo "Switching to Modules $swname version";_ source /usr/share/Modules/init/bash;_ else_ echo "Cannot switch to Modules $swname version, command not found";_ return 1;_ fi_}
+BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then_ eval "module $@";_ else_ /usr/bin/scl "$@";_ fi_}
+BASH_FUNC_module%%=() {  unset _mlshdbg;_ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then_ case "$-" in _ *v*x*)_ set +vx;_ _mlshdbg='vx'_ ;;_ *v*)_ set +v;_ _mlshdbg='v'_ ;;_ *x*)_ set +x;_ _mlshdbg='x'_ ;;_ *)_ _mlshdbg=''_ ;;_ esac;_ fi;_ unset _mlre _mlIFS;_ if [ -n "${IFS+x}" ]; then_ _mlIFS=$IFS;_ fi;_ IFS=' ';_ for _mlv in ${MODULES_RUN_QUARANTINE:-};_ do_ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then_ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then_ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";_ fi;_ _mlrv="MODULES_RUNENV_${_mlv}";_ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";_ fi;_ done;_ if [ -n "${_mlre:-}" ]; then_ eval `eval ${_mlre} /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash '"$@"'`;_ else_ eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash "$@"`;_ fi;_ _mlstatus=$?;_ if [ -n "${_mlIFS+x}" ]; then_ IFS=$_mlIFS;_ else_ unset IFS;_ fi;_ unset _mlre _mlv _mlrv _mlIFS;_ if [ -n "${_mlshdbg:-}" ]; then_ set -$_mlshdbg;_ fi;_ unset _mlshdbg;_ return $_mlstatus_}
+BASH_FUNC_ml%%=() {  module ml "$@"_}
+AUTOGRADER_SOURCED=yes
+ARCH=x86_64
+AGILEESOFD_LICENSE_FILE=27000@license-srv.eecs.berkeley.edu
+ADS_LICENSE_FILE=27000@license-srv.eecs.berkeley.edu
+0
+4
+1757962620 ../src/shift_register_structural.v
+1757620543 /home/cc/eecs151/fa25/class/eecs151-ady/asic-labs-fa25/lab1/src/d_flip_flop.v
+1757620543 shift_register_structural_tb.v
+1559359020 /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/vcsdp.tab
+4
+1559360489 /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/libvirsim.so
+1559360051 /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/liberrorinf.so
+1559360008 /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/libsnpsmalloc.so
+1559360050 /home/ff/eecs151/hammer-tools/synopsys/vcs/P-2019.06/linux64/lib/libvfs.so
+1757962623 shift_register_structural_tb.tb.daidir
+-1 partitionlib
