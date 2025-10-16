@@ -25,7 +25,7 @@ sim.inputs:
   top_module: "dot_product"
   tb_name: "dot_product_tb"
   defines: 
-    - "CLOCK_PERIOD=20.00"
+    - "CLOCK_PERIOD=19.60"
 
 power.inputs:
   database: "build/par-rundir/dot_product_FINAL"
